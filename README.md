@@ -20,7 +20,7 @@ Alternating Direction Method of Multipliers (ADMM)をLassoへ適用するアル�
 　LSTAT・・・低所得者の割合  
 ・物件の値段(boston.target)  
 
-最後に、ADMMを使用したアルゴリズムでの予測モデルの精度を確かめるためにscikit-learnのlinear_model(Coordinate Descent)と比較しています。(１１〜１３セル目)
+最後に、ADMMを使用したアルゴリズムでの予測モデルの精度を確かめるためにscikit-learnのlinear_model.lasso (Coordinate Descent)による結果と比較しています。(１１〜１３セル目)
 
 # Dependency
 使用言語：Python3.7.1  
