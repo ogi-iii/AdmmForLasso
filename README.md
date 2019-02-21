@@ -1,6 +1,6 @@
 # AdmmForLasso
 Alternating Direction Method of Multipliers (ADMM)をLassoへ適用するアルゴリズムを作成しました。(５セル目)  
-また、サンプルとしてボストンの物件価格を予測するプログラムを用意しました。(７〜８セル目)  
+また、サンプルとしてボストンの物件価格を予測するプログラムを用意しました。(６〜１０セル目)  
 
 ※サンプルデータとして機械学習ライブラリ『scikit-learn』の『Bostonデータセット』を使用しました。(１〜４セル目)  
 データ一覧  
@@ -20,7 +20,7 @@ Alternating Direction Method of Multipliers (ADMM)をLassoへ適用するアル�
 ・LSTAT・・・低所得者の割合  
 2.物件の値段(boston.target)  
 
-最後に、ADMMを使用したアルゴリズムでの予測モデルの精度を確かめるためにscikit-learnのlinear_model(Coordinate Descent)と比較しています。(９〜１０セル目)
+最後に、ADMMを使用したアルゴリズムでの予測モデルの精度を確かめるためにscikit-learnのlinear_model(Coordinate Descent)と比較しています。(１１〜１３セル目)
 
 # Dependency
 使用言語：Python3.7.1  
