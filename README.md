@@ -23,7 +23,7 @@ Alternating Direction Method of Multipliers (ADMM)をLassoへ適用するアル�
 ADMMを使用したアルゴリズムでの予測モデルの精度を確かめるために『scikit-learn』の『linear_model.Lasso (Coordinate Descent)』による結果と比較しています。(１１〜１３セル目)
 
 (2月28日：追記)
-ADMMを使用したアルゴリズムでの予測モデルのパラメータを『scikit-learn』の『GridsearchCV』で最適化させ、結果を前作２モデル(ADMMチューニング無しモデル、linear_model.Lassoモデル)と再比較させました。(１４〜１７セル目)
+ADMMを使用したアルゴリズムでの予測モデルのパラメータを『scikit-learn』の『GridsearchCV』で最適化させ、結果を前作２モデル(ADMMチューニング無しモデル、linear_model.Lassoモデル)と再比較させました。(１４〜１８セル目)
 
 # Dependency
 使用言語：Python3.7.1  
